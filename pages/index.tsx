@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Roboto_Mono } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 
@@ -15,8 +14,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={roboto.className}>
-        <h1>Talk is cheap</h1>
-
+        <h1 className="text-3xl font-bold tracking-wide text-center p-4">
+          Talk is cheap
+        </h1>
       </main>
     </>
   )
