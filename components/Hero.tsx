@@ -15,7 +15,7 @@ const Hero = () => {
                     It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
                 </p>
                 <a href='#' className={styles.ctaLink}>
-                    LET'S CHAT
+                    LET&apos;S CHAT
                 </a>
             </div>
             <div className={styles.statInformation}>
