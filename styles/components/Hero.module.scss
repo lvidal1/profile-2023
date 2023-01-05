@@ -1,7 +1,15 @@
 .section{
     @apply mx-auto max-w-screen-xl text-center;
-    @apply space-y-10 flex items-center justify-center flex-col p-8 md:p-0;
+    @apply grid grid-rows-6 grid-flow-col gap-4;
     @apply h-screen min-h-0 md:min-h-screen;
+}
+
+.heroInformation{
+    @apply row-span-5 space-y-10 flex items-center justify-center flex-col md:pt-8;
+}
+
+.statInformation{
+    @apply flex justify-center space-x-4;
 }
 
 .label{
@@ -10,12 +18,12 @@
 }
 
 .title{
-    @apply text-4xl md:text-5xl md:leading-snug font-normal tracking-wide;
+    @apply text-4xl md:text-5xl md:leading-snug font-normal tracking-tight;
 }
 
 .copy{
     @apply max-w-screen-sm mx-auto;
-    @apply text-sm text-slate-200;
+    @apply text-sm text-slate-300;
 }
 
 .ctaLink{
