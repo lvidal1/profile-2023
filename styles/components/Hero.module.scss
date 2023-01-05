@@ -1,0 +1,24 @@
+.section{
+    @apply mx-auto max-w-screen-xl text-center;
+    @apply space-y-10 flex items-center justify-center flex-col;
+    @apply h-screen min-h-0 md:min-h-screen;
+}
+
+.label{
+    @apply bg-light-green p-2 rounded;
+    @apply text-sm text-dark-gray font-semibold;
+}
+
+.title{
+    @apply text-5xl font-normal tracking-wide;
+}
+
+.copy{
+    @apply max-w-screen-sm mx-auto;
+    @apply text-sm text-slate-200;
+}
+
+.ctaLink{
+    @apply pb-1 border-b-4 border-transparent hover:border-light-green text-lg;
+    @apply text-light-green font-semibold;
+}
