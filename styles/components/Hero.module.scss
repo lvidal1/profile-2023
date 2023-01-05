@@ -1,6 +1,6 @@
 .section{
     @apply mx-auto max-w-screen-xl text-center;
-    @apply space-y-10 flex items-center justify-center flex-col;
+    @apply space-y-10 flex items-center justify-center flex-col p-8 md:p-0;
     @apply h-screen min-h-0 md:min-h-screen;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .title{
-    @apply text-5xl font-normal tracking-wide;
+    @apply text-4xl md:text-5xl md:leading-snug font-normal tracking-wide;
 }
 
 .copy{
