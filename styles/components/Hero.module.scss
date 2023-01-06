@@ -1,14 +1,22 @@
 .section{
-    @apply mx-auto max-w-screen-xl text-center;
+    @apply bg-dark-gray text-white;
+}
+
+.container{
+    @apply mx-auto max-w-screen-xl text-center relative;
     @apply grid grid-rows-6 grid-flow-col gap-4;
     @apply h-screen min-h-0 md:min-h-screen;
 }
 
-.heroInformation{
+.pattern{
+    @apply bg-pattern-circuit absolute top-0 left-0 h-full w-full opacity-10;
+}
+
+.greeting{
     @apply row-span-5 space-y-10 flex items-center justify-center flex-col md:pt-8;
 }
 
-.statInformation{
+.stats{
     @apply flex justify-center space-x-4;
 }
 

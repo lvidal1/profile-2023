@@ -17,6 +17,9 @@ module.exports = {
         "primary": "#efd81d",
         "purple": "#7e43ff",
         "green": "#64f4a9"
+      },
+      backgroundImage: {
+        'pattern-circuit': "url('/img/circuit-board.svg')",
       }
     },
   },
