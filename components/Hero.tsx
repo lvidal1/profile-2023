@@ -19,8 +19,8 @@ const Hero = () => {
                 </a>
             </div>
             <div className={styles.statInformation}>
-                <Stat number={10} label={'years experience'} />
-                <Stat number={56} label={'projects completed'} />
+                <Stat end={10} duration={1.5} label={'years experience'} />
+                <Stat end={56} duration={2.3} label={'projects completed'} />
             </div>
         </section>
     )

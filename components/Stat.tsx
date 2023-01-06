@@ -1,15 +1,20 @@
 import React from 'react'
+import { useCountUp } from 'react-countup';
 
 type StatProps = {
     label: string;
-    number: number
+    end: number,
+    duration: number
 };
 
-const Stat = ({ label, number }: StatProps) => {
+const Stat = ({ label, end, duration }: StatProps) => {
+
+    const id = label.split(" ").join("");
+    useCountUp({ ref: id, end, duration });
+
     return (
         <div className='w-48 flex items-center uppercase'>
-            <div className='text-6xl'>
-                {number}
+            <div className='text-6xl' id={id}>
             </div>
             <div className='text-sm text-left pl-4 text-slate-300'>
                 {label}
