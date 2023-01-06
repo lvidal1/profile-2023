@@ -1,0 +1,16 @@
+.footer{
+    @apply text-white bg-black;
+}
+
+.container{
+    @apply mx-auto max-w-screen-md xl:max-w-screen-xl p-8 md:px-0;
+    @apply flex flex-col sm:flex-row items-center space-y-10 sm:space-y-0;
+}
+
+.disclaimer{
+    @apply w-3/5 flex flex-col sm:flex-row sm:space-x-10 space-y-2 sm:space-y-0 items-center;
+}
+
+.socials{
+    @apply w-2/5 flex sm:justify-end;
+}
