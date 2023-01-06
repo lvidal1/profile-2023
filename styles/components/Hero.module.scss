@@ -13,7 +13,7 @@
 }
 
 .label{
-    @apply bg-light-green p-2 rounded;
+    @apply bg-primary p-2 rounded;
     @apply text-sm text-dark-gray font-semibold;
 }
 
@@ -27,6 +27,6 @@
 }
 
 .ctaLink{
-    @apply pb-1 border-b-4 border-transparent hover:border-light-green text-lg;
-    @apply text-light-green font-semibold;
+    @apply pb-1 border-b-4 border-transparent hover:border-primary text-lg;
+    @apply text-primary font-semibold;
 }
