@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "../styles/components/Hero.module.scss"
 import Stat from './Stat';
+import { TypingText } from './TypingText';
 
 const Hero = () => {
     return (
@@ -8,8 +9,8 @@ const Hero = () => {
             <div className={styles.heroInformation}>
                 <span className={styles.label}>Full Stack Developer</span>
                 <h1 className={styles.title}>
-                    Talk is cheap.<br />
-                    Show me the code
+                    I got you covered<br />
+                    <TypingText />
                 </h1>
                 <p className={styles.copy}>
                     It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
