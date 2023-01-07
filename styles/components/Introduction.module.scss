@@ -1,0 +1,18 @@
+.section{
+    @apply bg-black text-white;
+}
+
+.container{
+    @apply mx-auto max-w-screen-xl text-center relative;
+    @apply h-screen min-h-0 md:min-h-screen;
+    @apply flex flex-col sm:flex-row items-center space-y-20 sm:space-y-0;
+}
+
+.scope{
+    @apply sm:w-1/2;
+}
+
+.speech{
+    @apply sm:w-1/2 px-10 lg:px-28;
+    @apply space-y-8;
+}

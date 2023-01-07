@@ -2,6 +2,7 @@ import Head from 'next/head'
 import classNames from 'classnames'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
+import { Introduction } from '../components/Introduction'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       </Head>
       <main>
         <Hero />
+        <Introduction />
       </main>
       <Footer />
     </>
