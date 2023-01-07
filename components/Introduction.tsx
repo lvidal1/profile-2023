@@ -19,7 +19,7 @@ export const Introduction = () => {
                 </div>
                 <div className={styles.speech}>
                     <div className={styles.label}>Introduce</div>
-                    <h4 className={styles.title}>Hello, I'm Leonardo Vidal</h4>
+                    <h4 className={styles.title}>Hello, I&apos;m Leonardo Vidal</h4>
                     <div className={styles.quote}>Great power comes with great responsability</div>
                     <p className={styles.description}>
                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
