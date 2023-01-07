@@ -16,3 +16,19 @@
     @apply sm:w-1/2 px-10 lg:px-28;
     @apply space-y-8;
 }
+
+.label{
+    @apply text-left text-xs text-gray-400;
+}
+
+.title{
+    @apply text-left text-3xl md:text-4xl md:leading-snug;
+}
+
+.quote{
+    @apply text-left text-lg md:text-xl italic;
+}
+
+.description{
+    @apply text-left text-sm leading-loose text-gray-400;
+}
