@@ -12,11 +12,11 @@ export const Projects = () => {
                         <h4 className={styles.title}>Latest Projects</h4>
                         <p className={styles.label}>Passion & fun made visible</p>
                     </div>
-                    <ProjectCard />
+                    <ProjectCard title={"Purple Network"} />
                 </div>
                 <div className={classNames([styles.column, styles.right])}>
-                    <ProjectCard />
-                    <ProjectCard />
+                    <ProjectCard title={"Qatar Card"} sparkle={true} />
+                    <ProjectCard title={"Sam IA"} />
                 </div>
             </div>
         </section>
