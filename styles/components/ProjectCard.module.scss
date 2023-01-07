@@ -1,0 +1,4 @@
+.container{
+    @apply mx-auto w-80 md:w-144 h-80 md:h-144 mb-10 md:mb-20;
+    @apply bg-black rounded-lg shadow-card;
+}

@@ -1,0 +1,33 @@
+.section{
+    @apply bg-dark-gray text-white;
+}
+
+.container{
+    @apply mx-auto max-w-screen-xl text-center;
+    @apply  min-h-0 md:min-h-screen;
+    @apply sm:flex flex-col sm:flex-row items-start px-5 py-10 sm:py-28;
+}
+
+.column{
+    @apply sm:w-1/2;
+}
+
+.left{
+    @apply md:pr-20;
+}
+
+.right{
+    @apply md:pl-20;
+}
+
+.header{
+    @apply md:w-8/12 mx-auto mt-0 mb-10 md:my-20;
+}
+
+.label{
+    @apply sm:text-left text-xs text-gray-400;
+}
+
+.title{
+    @apply sm:text-left text-3xl md:text-4xl md:leading-snug mb-2;
+}

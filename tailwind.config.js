@@ -20,6 +20,18 @@ module.exports = {
       },
       backgroundImage: {
         'pattern-circuit': "url('/img/circuit-board.svg')",
+      },
+      width: {
+        '144': '32rem'
+      },
+      height: {
+        '144': '32rem'
+      },
+      maxWidth: {
+        '96': '24rem',
+      },
+      boxShadow: {
+        'card': '0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%)',
       }
     },
   },
