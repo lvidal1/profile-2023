@@ -3,18 +3,18 @@
 }
 
 .container{
-    @apply mx-auto max-w-screen-xl text-center relative;
-    @apply h-screen min-h-0 md:min-h-screen;
-    @apply flex flex-col sm:flex-row items-center space-y-20 sm:space-y-0;
+    @apply mx-auto max-w-screen-xl text-center;
+    @apply  min-h-0 md:min-h-screen;
+    @apply flex flex-col sm:flex-row items-center space-y-20 sm:space-y-0 px-5;
 }
 
 .scope{
-    @apply sm:w-1/2;
+    @apply sm:w-1/2 md:pr-20 space-y-4 order-2 sm:order-1 mt-10 md:mt-0;
 }
 
 .speech{
-    @apply sm:w-1/2 px-10 lg:px-28;
-    @apply space-y-8;
+    @apply sm:w-1/2 sm:px-10 lg:px-24;
+    @apply space-y-8 order-1 sm:order-2;
 }
 
 .label{

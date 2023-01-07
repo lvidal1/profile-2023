@@ -1,12 +1,21 @@
 import React from 'react'
 import styles from "../styles/components/Introduction.module.scss"
+import { ScopeCard } from './ScopeCard'
 
 export const Introduction = () => {
     return (
         <section className={styles.section}>
             <div className={styles.container}>
                 <div className={styles.scope}>
-
+                    <ScopeCard
+                        title={"Front-End"}
+                        brief={"Model & optimize UI to creates value on projects"} />
+                    <ScopeCard
+                        title={"Back-End"}
+                        brief={"Model clean & robust architecture for modern apps"} />
+                    <ScopeCard
+                        title={"Analytics"}
+                        brief={"Get insights from your site, e-commerce and more"} />
                 </div>
                 <div className={styles.speech}>
                     <div className={styles.label}>Introduce</div>

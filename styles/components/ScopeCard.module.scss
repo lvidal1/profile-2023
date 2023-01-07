@@ -1,0 +1,16 @@
+.container{
+    @apply p-10 md:p-12 w-full relative bg-dark-gray rounded-lg;
+}
+
+.icon{
+    @apply w-4 h-4 bg-primary absolute top-4 right-4;
+}
+
+.title{
+    @apply text-lg sm:text-2xl text-primary text-left mb-2;
+}
+
+.brief{
+    @apply text-left text-sm leading-loose text-gray-400;
+}
+
