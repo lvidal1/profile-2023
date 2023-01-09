@@ -10,11 +10,11 @@ export const TypingText = () => {
                 1000,
                 'Show me the design',
                 1000,
-                'Show me the component',
-                1000,
                 'Show me the web',
                 1000,
-                'Show me the API',
+                'Show me the API ',
+                1000,
+                'Show me the DB',
                 1000,
             ]}
             speed={45} // Custom Speed from 1-99 - Default Speed: 40

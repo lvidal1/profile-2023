@@ -11,11 +11,11 @@ const Hero = () => {
                 <div className={styles.greeting}>
                     <span className={styles.label}>Full Stack Developer</span>
                     <h1 className={styles.title}>
-                        I got you covered<br />
+                        I got you!<br />
                         <TypingText />
                     </h1>
                     <p className={styles.copy}>
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                        Before software can be reusable it first has to be usable.
                     </p>
                     <a href='mailto:lvidal910@gmail.com' className={styles.ctaLink}>
                         LET&apos;S CHAT
