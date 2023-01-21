@@ -1,12 +1,16 @@
-.container{
-    @apply mx-auto w-full sm:w-80 md:w-144 h-80 md:h-144 mb-10 md:mb-20 p-6 md:p-12;
-    @apply bg-black rounded-lg shadow-card;
+.container {
+  @apply mx-auto w-full sm:w-80 md:w-144 h-80 md:h-144 mb-10 md:mb-20 p-6 md:p-12 relative overflow-hidden;
+  @apply bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#16191e] to-[#262729] rounded-lg shadow-card;
 }
 
-.title{
-    @apply text-left text-lg md:text-2xl md:leading-snug mb-2;
+.title {
+  @apply text-left text-lg md:text-2xl md:leading-snug mb-2;
 }
 
-.sparkle{
-    @apply text-primary
+.sparkle {
+  @apply text-primary;
+}
+
+.image {
+  @apply opacity-80;
 }

@@ -15,7 +15,7 @@ export const Projects = () => {
 
                 </div>
                 <div className={classNames([styles.column, styles.right])}>
-                    <ProjectCard title={"Redux Network"} src={"/img/project-social.png"} sparkle={true} />
+                    <ProjectCard title={"Redux Network"} src={"/img/social.webp"} sparkle={true} />
                 </div>
             </div>
         </section>
