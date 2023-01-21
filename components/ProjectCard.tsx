@@ -14,7 +14,7 @@ export const ProjectCard = ({ title, sparkle, src }: ProjectCardProp) => {
     return (
         <div className={styles.container}>
             <div className={classNames([styles.title, sparkle ? styles.sparkle : ""])}>{title}</div>
-            <Image className={styles.image} src={src} fill></Image>
+            <Image alt="project-image" className={styles.image} src={src} fill></Image>
         </div>
     )
 }

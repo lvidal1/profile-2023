@@ -1,0 +1,30 @@
+.section{
+    @apply bg-black text-white py-24 sm:py-36 md:py-52;
+}
+
+.container{
+    @apply mx-auto max-w-screen-md xl:max-w-screen-xl p-8 md:px-0;
+    @apply flex flex-col md:flex-row space-y-10 sm:space-y-0;
+    @apply md:min-h-[50%];
+}
+
+.left{
+    @apply md:w-7/12 md:pr-20;
+}
+
+.right{
+    @apply  md:w-5/12 md:pl-20;
+}
+
+.title{
+    @apply sm:text-left text-3xl md:text-4xl md:leading-snug mb-4 md:mb-12;
+}
+
+.label{
+    @apply sm:text-left text-xs text-gray-400;
+}
+
+.ctaLink{
+    @apply pb-1 border-b-4 border-transparent hover:border-primary text-3xl md:text-4xl;
+    @apply text-primary;
+}
