@@ -1,10 +1,10 @@
 .section{
-    @apply bg-dark-gray text-white;
+    @apply bg-dark-gray text-white md:py-20;
 }
 
 .container{
     @apply mx-auto max-w-screen-xl text-center;
-    @apply  min-h-0 md:min-h-screen;
+   // @apply  min-h-0 md:min-h-screen;
     @apply sm:flex flex-col sm:flex-row items-start px-5 py-10 sm:py-28;
 }
 
