@@ -2,23 +2,25 @@ import React from 'react'
 import styles from "../styles/components/Hero.module.scss"
 import Stat from './Stat';
 import { TypingText } from './TypingText';
+import useTranslation from 'next-translate/useTranslation'
 
 const Hero = () => {
+    const { t } = useTranslation('common');
     return (
         <section className={styles.section}>
             <div className={styles.pattern}></div>
             <div className={styles.container}>
                 <div className={styles.greeting}>
-                    <span className={styles.label}>Full Stack Developer</span>
+                    <span className={styles.label}>{t('position')}</span>
                     <h1 className={styles.title}>
-                        I got you!<br />
+                        {t('hero.title')}<br />
                         <TypingText />
                     </h1>
                     <p className={styles.copy}>
-                        Transforming app ideas into user-friendly reality
+                        {t('hero.subtitle')}
                     </p>
                     <a href='mailto:lvidal910@gmail.com' className={styles.ctaLink}>
-                        LET&apos;S CHAT
+                        {t('hero.link')}
                     </a>
                 </div>
                 <div className={styles.stats}>
