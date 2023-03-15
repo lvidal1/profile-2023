@@ -14,7 +14,7 @@ const Contact = () => {
                     </a></p>
                 </div>
                 <div className={classNames([styles.column, styles.right])}>
-                    <div className={classNames([styles.label, "mb-6"])}>Information</div>
+                    <div className={classNames([styles.label, "mb-6"])}>Contact</div>
                     <a href='mailto:lvidal910@gmail.com' className={styles.title}>lvidal@gmail.com</a>
                 </div>
             </div>

@@ -4,11 +4,11 @@
 
 .container{
     @apply mx-auto max-w-5xl text-center;
-    @apply flex flex-col sm:flex-row items-center space-y-20 sm:space-y-0 py-20 md:py-36;
+    @apply flex flex-col sm:flex-row items-center space-y-20 sm:space-y-0 py-20 md:py-36 px-8 sm:px-4 xl:px-0;
 }
 
 .scope{
-    @apply sm:w-1/2 md:pr-20 space-y-4 order-2 sm:order-1 my-10 md:my-0;
+    @apply sm:w-1/2 lg:pr-20 space-y-4 order-2 sm:order-1 my-10 md:my-0;
 }
 
 .speech{
