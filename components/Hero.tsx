@@ -15,7 +15,7 @@ const Hero = () => {
                         <TypingText />
                     </h1>
                     <p className={styles.copy}>
-                        Before software can be reusable it first has to be usable.
+                        Transforming app ideas into user-friendly reality
                     </p>
                     <a href='mailto:lvidal910@gmail.com' className={styles.ctaLink}>
                         LET&apos;S CHAT
