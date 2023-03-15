@@ -3,7 +3,7 @@
 }
 
 .container{
-    @apply mx-auto max-w-screen-md xl:max-w-screen-xl p-8 md:px-0;
+    @apply mx-auto max-w-screen-md xl:max-w-5xl p-8 md:px-0;
     @apply flex flex-col md:flex-row space-y-10 sm:space-y-0;
     @apply md:min-h-[50%];
 }

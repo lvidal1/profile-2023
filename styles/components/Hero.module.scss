@@ -3,7 +3,7 @@
 }
 
 .container{
-    @apply mx-auto max-w-screen-xl text-center relative;
+    @apply mx-auto max-w-5xl text-center relative;
     @apply grid grid-rows-6 grid-flow-col gap-4;
     @apply h-screen min-h-0 md:min-h-screen;
 }

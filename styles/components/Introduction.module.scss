@@ -3,7 +3,7 @@
 }
 
 .container{
-    @apply mx-auto max-w-screen-xl text-center;
+    @apply mx-auto max-w-5xl text-center;
     @apply  min-h-0 md:min-h-screen;
     @apply flex flex-col sm:flex-row items-center space-y-20 sm:space-y-0 px-5;
 }
