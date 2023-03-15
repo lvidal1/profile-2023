@@ -1,5 +1,18 @@
 .container{
     @apply p-10 md:p-12 w-full relative bg-dark-gray rounded-lg shadow-card;
+    @apply transition duration-150 ease-out hover:ease-in;
+    &:hover, &:focus{
+        @apply shadow-scope-2 bg-primary;
+        .title{
+            @apply text-black font-bold;
+        }
+        .brief{
+            @apply text-black;
+        }
+        .icon{
+            @apply bg-black;
+        }
+    }
 }
 
 .icon{
@@ -12,5 +25,6 @@
 
 .brief{
     @apply text-left text-sm leading-loose text-gray-400;
+    @apply hover:text-black;
 }
 

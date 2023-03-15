@@ -32,6 +32,8 @@ module.exports = {
       },
       boxShadow: {
         'card': '0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%)',
+        'scope': '9px 9px 0px #efd81d',
+        'scope-2': '8px 8px 0px #25262a',
       }
     },
   },
