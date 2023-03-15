@@ -4,7 +4,7 @@ import { ScopeCard } from './ScopeCard'
 
 export const Introduction = () => {
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id="about">
             <div className={styles.container}>
                 <div className={styles.scope}>
                     <ScopeCard

@@ -5,7 +5,7 @@ import styles from "../styles/components/Contact.module.scss"
 
 const Contact = () => {
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id="contact">
             <div className={styles.container}>
                 <div className={classNames([styles.column, styles.left])}>
                     <h4 className={classNames([styles.title])}>Let&apos;s make something amazing together</h4>
