@@ -8,10 +8,10 @@ interface ScopeCardProp {
 
 export const ScopeCard = ({ title, brief }: ScopeCardProp) => {
     return (
-        <div className={styles.container}>
+        <article className={styles.container}>
             <div className={styles.icon}></div>
-            <div className={styles.title}>{title}</div>
-            <div className={styles.brief}>{brief}</div>
-        </div>
+            <header className={styles.title}>{title}</header>
+            <p className={styles.brief}>{brief}</p>
+        </article>
     )
 }

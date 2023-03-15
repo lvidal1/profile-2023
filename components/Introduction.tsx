@@ -9,20 +9,20 @@ export const Introduction = () => {
                 <div className={styles.scope}>
                     <ScopeCard
                         title={"Front-End"}
-                        brief={"Model & optimize UI to creates value on projects"} />
+                        brief={"Build beautiful, responsive websites that work seamlessly across all devices"} />
                     <ScopeCard
                         title={"Back-End"}
-                        brief={"Model clean & robust architecture for modern apps"} />
+                        brief={"Develop secure and scalable back-end solutions with clean architecture"} />
                     <ScopeCard
-                        title={"Analytics"}
-                        brief={"Get insights from your site, e-commerce and more"} />
+                        title={"AI Prompting"}
+                        brief={"Transform your business with GPT integration to make data-driven decisions faster than ever."} />
                 </div>
                 <div className={styles.speech}>
-                    <div className={styles.label}>Introduce</div>
-                    <h4 className={styles.title}>Hello, I&apos;m Leonardo Vidal</h4>
-                    <div className={styles.quote}>Great power comes with great responsability</div>
+                    <div className={styles.label}>Introduction</div>
+                    <h4 className={styles.title}>Hola, I&apos;m Leonardo Vidal</h4>
+                    <div className={styles.quote}>"Crafting innovative web experiences to achieve your business goals."</div>
                     <p className={styles.description}>
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+                        This is me, a web developer with years of experience under my belt. From developing cutting-edge applications with the latest technologies to effectively leading teams through each stage of the web development cycle, I'm confident that I have what it takes to bring your web development project to life. Let's work together to create scalable and high-quality products that exceed your expectations!
                     </p>
                 </div>
             </div>

@@ -12,7 +12,6 @@ export const Projects = () => {
                         <h4 className={styles.title}>Latest Projects</h4>
                         <p className={styles.label}>Passion & fun made visible</p>
                     </div>
-
                 </div>
                 <div className={classNames([styles.column, styles.right])}>
                     <ProjectCard title={"Redux Network"} src={"/img/social.webp"} sparkle={true} />

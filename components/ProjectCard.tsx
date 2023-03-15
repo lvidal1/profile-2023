@@ -12,9 +12,9 @@ interface ProjectCardProp {
 
 export const ProjectCard = ({ title, sparkle, src }: ProjectCardProp) => {
     return (
-        <div className={styles.container}>
-            <div className={classNames([styles.title, sparkle ? styles.sparkle : ""])}>{title}</div>
+        <article className={styles.container}>
+            <header className={classNames([styles.title, sparkle ? styles.sparkle : ""])}>{title}</header>
             <Image alt="project-image" className={styles.image} src={src} fill></Image>
-        </div>
+        </article>
     )
 }

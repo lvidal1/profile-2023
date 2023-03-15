@@ -6,6 +6,7 @@ import { Introduction } from '../components/Introduction'
 import { Tools } from '../components/Tools'
 import { Projects } from '../components/Projects'
 import Contact from '../components/Contact'
+import Navbar from '../components/Navbar'
 
 export default function Home() {
   return (
@@ -17,10 +18,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <Navbar />
         <Hero />
         <Introduction />
         <Tools />
-        <Projects />
+        {/* <Projects /> */}
         <Contact />
       </main>
       <Footer />
