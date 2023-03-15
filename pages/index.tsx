@@ -1,12 +1,11 @@
 import Head from 'next/head'
-import classNames from 'classnames'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
 import { Introduction } from '../components/Introduction'
 import { Tools } from '../components/Tools'
 import { Projects } from '../components/Projects'
 import Contact from '../components/Contact'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/Navbar/Navbar'
 
 export default function Home() {
   return (
