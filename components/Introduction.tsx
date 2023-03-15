@@ -20,9 +20,9 @@ export const Introduction = () => {
                 <div className={styles.speech}>
                     <div className={styles.label}>Introduction</div>
                     <h4 className={styles.title}>Hola, I&apos;m Leonardo Vidal</h4>
-                    <div className={styles.quote}>"Crafting innovative web experiences to achieve your business goals."</div>
+                    <div className={styles.quote}>Crafting innovative web experiences to achieve your business goals.</div>
                     <p className={styles.description}>
-                        This is me, a web developer with years of experience under my belt. From developing cutting-edge applications with the latest technologies to effectively leading teams through each stage of the web development cycle, I'm confident that I have what it takes to bring your web development project to life. Let's work together to create scalable and high-quality products that exceed your expectations!
+                        This is me, a web developer with years of experience under my belt. From developing cutting-edge applications with the latest technologies to effectively leading teams through each stage of the web development cycle, I&apos;m confident that I have what it takes to bring your web development project to life. Let&apos;s work together to create scalable and high-quality products that exceed your expectations!
                     </p>
                 </div>
             </div>
