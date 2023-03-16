@@ -3,6 +3,14 @@
     "hero":{
         "title":"Vamos!",
         "subtitle":"Transformando ideas en una realidad fácil de usar para el usuario",
-        "link":"CONVERSEMOS"
+        "link":"CONVERSEMOS",
+        "experience":"años de experiencia",
+        "typing":{
+            "showCode": "Muéstrame el código",
+            "showDesign": "Muéstrame el diseño",
+            "showWeb": "Muéstrame la web",
+            "showAPI": "Muéstrame el API",
+            "showDB": "Muéstrame la DB"
+        }
     }
 }

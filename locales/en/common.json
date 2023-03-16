@@ -3,6 +3,14 @@
     "hero":{
         "title":"I got you!",
         "subtitle":"Transforming app ideas into user-friendly reality",
-        "link":"LET'S CHAT"
+        "link":"LET'S CHAT",
+        "experience":"years experience",
+        "typing":{
+            "showCode": "Show me the code",
+            "showDesign": "Show me the design",
+            "showWeb": "Show me the web",
+            "showAPI": "Show me the API",
+            "showDB": "Show me the DB"
+        }
     }
 }
