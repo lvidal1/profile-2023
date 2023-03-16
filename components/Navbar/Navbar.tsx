@@ -1,14 +1,17 @@
+import Link from 'next/link'
 import React from 'react'
 import { SocialIcon } from 'react-social-icons'
 import { LinkItem } from './LinkItem'
 import { Logo } from './Logo'
+import { Translate } from './Translate'
 
 const Navbar = () => {
     return <nav className="px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0">
         <div className='bg-black w-full h-full absolute top-0 left-0 z-[-1]'></div>
         <div className="container flex flex-wrap items-center justify-between mx-auto">
             <Logo />
-            <div className="flex md:order-2">
+            <div className="flex items-center md:order-2">
+                <Translate />
                 <SocialIcon rel="noreferrer" target="_blank" url="https://github.com/lvidal1/" bgColor='transparent' fgColor="white" network='github' />
                 {/* <button type="button" className="text-black bg-primary hover:bg-primary rounded-md text-sm px-5 py-2.5 text-center mr-3 md:mr-0">Get started</button> */}
                 <button data-collapse-toggle="navbar-sticky" type="button" className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
