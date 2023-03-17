@@ -27,5 +27,11 @@
         "section":"Intro",
         "copy":"Creando experiencias web innovadoras para alcanzar sus objetivos comerciales.",
         "description":" Este soy yo, un desarrollador web con años de experiencia a mis espaldas. Desde el desarrollo de aplicaciones de vanguardia con las últimas tecnologías hasta liderar eficazmente equipos en cada etapa del ciclo de desarrollo web, estoy seguro de que tengo lo necesario para dar vida a su proyecto de desarrollo web. ¡Trabajemos juntos para crear productos escalables y de alta calidad que superen sus expectativas!"
+    },
+    "contact":{
+        "section":"Contacto",
+        "greeting": "Hagamos algo increíble juntos.",
+        "start":"Comencemos con",
+        "sayHi":"un Hola!"
     }
 }
