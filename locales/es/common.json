@@ -17,5 +17,15 @@
             "showAPI": "Muéstrame el API",
             "showDB": "Muéstrame la DB"
         }
+    },
+    "intro":{
+        "card":{
+            "front":"Construyamos sitios web hermosos y receptivos que funcionen sin problemas en todos los dispositivos.",
+            "back":"Desarrollemos soluciones de backend seguras y escalables con una arquitectura limpia.",
+            "ai":"Transformemos su negocio con la integración de GPT para tomar decisiones basadas en datos más rápidamente que nunca."
+        },
+        "section":"Intro",
+        "copy":"Creando experiencias web innovadoras para alcanzar sus objetivos comerciales.",
+        "description":" Este soy yo, un desarrollador web con años de experiencia a mis espaldas. Desde el desarrollo de aplicaciones de vanguardia con las últimas tecnologías hasta liderar eficazmente equipos en cada etapa del ciclo de desarrollo web, estoy seguro de que tengo lo necesario para dar vida a su proyecto de desarrollo web. ¡Trabajemos juntos para crear productos escalables y de alta calidad que superen sus expectativas!"
     }
 }
