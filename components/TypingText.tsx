@@ -24,7 +24,7 @@ export const TypingText = () => {
 
     return <>
         {locales.map((l) => {
-            return <>
+            return <React.Fragment key={l}>
                 {lang === l &&
                     <TypeAnimation
                         sequence={getSequence(l)}
@@ -33,8 +33,7 @@ export const TypingText = () => {
                         repeat={Infinity}
                         cursor={true}
                     />}
-            </>
+            </React.Fragment>
         })}
     </>
-
 }
