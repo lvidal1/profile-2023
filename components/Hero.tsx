@@ -25,7 +25,7 @@ const Hero = () => {
                     </a>
                 </div>
                 <div className={styles.stats}>
-                    <Stat end={10} duration={1.5} label={t('hero.experience')} />
+                    <Stat end={9} duration={1.5} label={t('hero.experience')} />
                     {/* <Stat end={56} duration={2.3} label={'projects completed'} /> */}
                 </div>
             </div>

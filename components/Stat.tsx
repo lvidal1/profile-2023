@@ -14,6 +14,9 @@ const Stat = ({ label, end, duration }: StatProps) => {
 
     return (
         <div className='w-48 flex items-center uppercase'>
+            <div className='text-6xl'>
+                +
+            </div>
             <div className='text-6xl' id={id}>
             </div>
             <div className='text-sm text-left pl-4 text-slate-300'>
