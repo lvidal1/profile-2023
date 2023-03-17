@@ -1,3 +1,4 @@
+import useTranslation from 'next-translate/useTranslation'
 import Link from 'next/link'
 import React from 'react'
 import { SocialIcon } from 'react-social-icons'
@@ -6,6 +7,9 @@ import { Logo } from './Logo'
 import { Translate } from './Translate'
 
 const Navbar = () => {
+
+    const { t } = useTranslation('common');
+
     return <nav className="px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0">
         <div className='bg-black w-full h-full absolute top-0 left-0 z-[-1]'></div>
         <div className="container flex flex-wrap items-center justify-between mx-auto">
@@ -22,14 +26,14 @@ const Navbar = () => {
             <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
                 <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent ">
                     <li>
-                        <LinkItem url="#" text="Home" />
+                        <LinkItem url="#" text={t('navbar.home')} />
                     </li>
                     <li>
-                        <LinkItem url="#about" text="About" />
+                        <LinkItem url="#about" text={t('navbar.about')} />
 
                     </li>
                     <li>
-                        <LinkItem url="#contact" text="Contact" />
+                        <LinkItem url="#contact" text={t('navbar.contact')} />
                     </li>
                 </ul>
             </div>

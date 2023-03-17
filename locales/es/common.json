@@ -1,5 +1,10 @@
 {
     "position": "Full Stack Developer",
+    "navbar":{
+        "home":"Inicio",
+        "about":"Acerca",
+        "contact":"Contacto"
+    },
     "hero":{
         "title":"Vamos!",
         "subtitle":"Transformando ideas en una realidad fácil de usar para el usuario",
