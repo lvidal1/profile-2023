@@ -1,27 +1,39 @@
-import React from 'react'
+import React, { useCallback } from 'react'
 import { TypeAnimation } from 'react-type-animation'
+import useTranslation from 'next-translate/useTranslation';
+import { locales, LOCALES_NAMESPACE } from '../utils/locale';
 
 export const TypingText = () => {
-    return (
-        <TypeAnimation
-            // Same String at the start will only be typed once, initially
-            sequence={[
-                'Show me the code',
-                1000,
-                'Show me the design',
-                1000,
-                'Show me the web',
-                1000,
-                'Show me the API ',
-                1000,
-                'Show me the DB',
-                1000,
-            ]}
-            speed={45} // Custom Speed from 1-99 - Default Speed: 40
-            wrapper="span" // Animation will be rendered as a <span>
-            repeat={Infinity} // Repeat this Animation Sequence infinitely
-            cursor={true}
-        />
+    const { t, lang } = useTranslation();
 
-    )
+    const getSequence = useCallback((lang: string) => {
+        const locale = LOCALES_NAMESPACE[lang]
+        return [
+            t(`${locale}:hero.typing.showCode`),
+            1000,
+            t(`${locale}:hero.typing.showDesign`),
+            1000,
+            t(`${locale}:hero.typing.showWeb`),
+            1000,
+            t(`${locale}:hero.typing.showAPI`),
+            1000,
+            t(`${locale}:hero.typing.showDB`),
+            1000,
+        ]
+    }, [lang])
+
+    return <>
+        {locales.map((l) => {
+            return <React.Fragment key={l}>
+                {lang === l &&
+                    <TypeAnimation
+                        sequence={getSequence(l)}
+                        speed={45}
+                        wrapper="span"
+                        repeat={Infinity}
+                        cursor={true}
+                    />}
+            </React.Fragment>
+        })}
+    </>
 }
