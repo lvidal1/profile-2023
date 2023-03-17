@@ -34,6 +34,18 @@ module.exports = {
         'card': '0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%)',
         'scope': '9px 9px 0px #efd81d',
         'scope-2': '8px 8px 0px #25262a',
+      },
+      fontSize: {
+        '2.5xl': '1.75rem'
+      },
+      keyframes: {
+        ladder: {
+          '0%, 100%': { transform: 'translateX(0)' },
+          '50%': { transform: 'translateX(15px)' },
+        }
+      },
+      animation: {
+        'spin-slow': 'ladder 2.5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite',
       }
     },
   },

@@ -3,7 +3,7 @@
 }
 
 .container{
-    @apply mx-auto max-w-5xl text-center relative;
+    @apply mx-auto max-w-5xl text-center relative px-8 sm:px-4 xl:px-0;
     @apply grid grid-rows-6 grid-flow-col gap-4;
     @apply h-screen min-h-0 md:min-h-screen;
 }
@@ -26,7 +26,7 @@
 }
 
 .title{
-    @apply text-4xl md:text-5xl md:leading-snug font-normal tracking-tight;
+    @apply text-2.5xl sm:text-4xl md:text-5xl md:leading-snug font-normal tracking-tight;
 }
 
 .copy{

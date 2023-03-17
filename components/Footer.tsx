@@ -1,4 +1,3 @@
-import classNames from "classnames"
 import styles from "../styles/components/Footer.module.scss"
 import { SocialIcon } from "react-social-icons";
 
