@@ -1,5 +1,6 @@
-import classNames from 'classnames'
 import React from 'react'
+import classNames from 'classnames'
+import styles from "../../styles/components/Navbar.module.scss"
 
 interface LinkItemProp {
     text: string,
@@ -9,6 +10,6 @@ interface LinkItemProp {
 
 export const LinkItem = ({ text, url, active }: LinkItemProp) => {
     return (
-        <a href={url} className={classNames(["block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0 hover:text-primary", active ? "text-primary" : ""])} aria-current="page">{text}</a>
+        <a href={url} className={classNames([styles.linkItem, active ? "text-primary" : ""])} aria-current="page">{text}</a>
     )
 }
