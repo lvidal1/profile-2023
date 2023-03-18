@@ -10,9 +10,9 @@ const Navbar = () => {
 
     const { t } = useTranslation('common');
 
-    return <nav className="px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0">
+    return <nav className="fixed w-full z-20 top-0 left-0">
         <div className='bg-black w-full h-full absolute top-0 left-0 z-[-1]'></div>
-        <div className="container flex flex-wrap items-center justify-between mx-auto">
+        <div className="px-6 md:px-4 py-2.5 mx-auto max-w-5xl flex flex-wrap items-center justify-between mx-auto">
             <div className='w-32'>
                 <Logo />
             </div>
