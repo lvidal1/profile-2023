@@ -1,6 +1,5 @@
-import useTranslation from 'next-translate/useTranslation'
-import Link from 'next/link'
 import React from 'react'
+import useTranslation from 'next-translate/useTranslation'
 import { SocialIcon } from 'react-social-icons'
 import { LinkItem } from './LinkItem'
 import { Logo } from './Logo'
@@ -12,7 +11,7 @@ const Navbar = () => {
 
     return <nav className="fixed w-full z-20 top-0 left-0">
         <div className='bg-black w-full h-full absolute top-0 left-0 z-[-1]'></div>
-        <div className="px-6 md:px-4 py-2.5 mx-auto max-w-5xl flex flex-wrap items-center justify-between mx-auto">
+        <div className="px-6 md:px-4 py-2.5 mx-auto max-w-7xl flex flex-wrap items-center justify-between mx-auto">
             <div className='w-32'>
                 <Logo />
             </div>
