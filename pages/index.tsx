@@ -15,11 +15,13 @@ import commonES from '../locales/es/common.json'
 
 export default function Home() {
   const { lang } = useTranslation()
+
+  const title = "Welcome to my <hood/> | Leonardo";
   return (
     <>
       <I18nProvider lang={lang} namespaces={{ commonEN, commonES }}>
         <Head>
-          <title>Profile</title>
+          <title>{title}</title>
           <meta name="description" content="Profile" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon/favicon.ico" />
