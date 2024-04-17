@@ -53,6 +53,14 @@ const Footer = () => {
                         fgColor="white"
                         network="github"
                     />
+                    <SocialIcon
+                        rel="noreferrer"
+                        target="_blank"
+                        url="https://www.tiktok.com/@lvidal.pe/"
+                        bgColor="transparent"
+                        fgColor="white"
+                        network="tiktok"
+                    />
                 </div>
             </div>
         </footer>
