@@ -1,30 +1,30 @@
-.section{
+.section {
     @apply bg-black text-white py-24 sm:py-36 md:py-52;
 }
 
-.container{
+.container {
     @apply mx-auto max-w-5xl px-8 sm:px-4 xl:px-0;
     @apply flex flex-col lg:flex-row justify-center items-center lg:items-start space-y-10 sm:space-y-0;
     @apply md:min-h-[50%] text-center;
 }
 
-.left{
+.left {
     @apply w-4/5 lg:w-7/12 lg:pr-20;
 }
 
-.right{
+.right {
     @apply w-4/5 lg:w-5/12 lg:pl-20;
 }
 
-.title{
+.title {
     @apply lg:text-left text-3xl md:text-4xl md:leading-snug mb-4 md:mb-12;
 }
 
-.label{
+.label {
     @apply lg:text-left text-xs text-gray-400;
 }
 
-.ctaLink{
+.ctaLink {
     @apply pb-1 border-b-4 border-transparent hover:border-primary text-3xl md:text-4xl;
     @apply text-primary;
 }

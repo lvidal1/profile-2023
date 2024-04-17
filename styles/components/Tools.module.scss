@@ -1,12 +1,12 @@
-.section{
+.section {
     @apply bg-dark-gray text-white;
 }
 
-.container{
+.container {
     @apply mx-auto max-w-5xl text-center;
     @apply flex py-8 sm:py-20 justify-evenly px-8 sm:px-4 xl:px-0;
 }
 
-.icon{
+.icon {
     @apply block text-3xl sm:text-7xl opacity-50 hover:opacity-90;
 }

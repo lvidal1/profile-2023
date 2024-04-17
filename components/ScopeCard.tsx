@@ -1,9 +1,9 @@
-import React from 'react'
-import styles from "../styles/components/ScopeCard.module.scss"
+import React from 'react';
+import styles from '../styles/components/ScopeCard.module.scss';
 
 interface ScopeCardProp {
-    title: string,
-    brief: string
+    title: string;
+    brief: string;
 }
 
 export const ScopeCard = ({ title, brief }: ScopeCardProp) => {
@@ -13,5 +13,5 @@ export const ScopeCard = ({ title, brief }: ScopeCardProp) => {
             <header className={styles.title}>{title}</header>
             <p className={styles.brief}>{brief}</p>
         </article>
-    )
-}
+    );
+};

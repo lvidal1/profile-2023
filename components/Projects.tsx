@@ -1,7 +1,7 @@
-import classNames from 'classnames'
-import React from 'react'
-import styles from "../styles/components/Projects.module.scss"
-import { ProjectCard } from './ProjectCard'
+import classNames from 'classnames';
+import React from 'react';
+import styles from '../styles/components/Projects.module.scss';
+import { ProjectCard } from './ProjectCard';
 
 export const Projects = () => {
     return (
@@ -14,9 +14,9 @@ export const Projects = () => {
                     </div>
                 </div>
                 <div className={classNames([styles.column, styles.right])}>
-                    <ProjectCard title={"Redux Network"} src={"/img/social.webp"} sparkle={true} />
+                    <ProjectCard title={'Redux Network'} src={'/img/social.webp'} sparkle={true} />
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};

@@ -1,40 +1,40 @@
-.section{
+.section {
     @apply bg-dark-gray text-white;
 }
 
-.container{
+.container {
     @apply mx-auto max-w-5xl text-center relative px-8 sm:px-4 xl:px-0;
     @apply grid grid-rows-6 grid-flow-col gap-4;
     @apply h-screen min-h-0 md:min-h-screen;
 }
 
-.pattern{
+.pattern {
     @apply bg-pattern-circuit absolute top-0 left-0 h-full w-full opacity-10;
 }
 
-.greeting{
+.greeting {
     @apply row-span-5 space-y-10 flex items-center justify-center flex-col md:pt-8;
 }
 
-.stats{
+.stats {
     @apply flex justify-center space-x-4;
 }
 
-.label{
+.label {
     @apply bg-primary p-2 rounded;
     @apply text-sm text-dark-gray font-semibold;
 }
 
-.title{
+.title {
     @apply text-2.5xl sm:text-4xl md:text-5xl md:leading-snug font-normal tracking-tight;
 }
 
-.copy{
+.copy {
     @apply max-w-screen-sm mx-auto;
     @apply text-sm text-slate-300;
 }
 
-.ctaLink{
+.ctaLink {
     @apply pb-1 border-b-4 border-transparent hover:border-primary text-lg;
     @apply text-primary font-semibold;
 }

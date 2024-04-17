@@ -1,0 +1,6 @@
+node_modules/
+dist/
+env.d.ts
+next-env.d.ts
+.next/
+yarn.lock

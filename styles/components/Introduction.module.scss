@@ -1,28 +1,28 @@
-.section{
+.section {
     @apply bg-black text-white;
 }
 
-.container{
+.container {
     @apply mx-auto max-w-5xl text-center;
     @apply flex flex-col sm:flex-row items-center space-y-20 sm:space-y-0 py-20 md:py-36 px-8 sm:px-4 xl:px-0;
 }
 
-.scope{
+.scope {
     @apply sm:w-1/2 lg:pr-20 space-y-4 order-2 sm:order-1 my-10 md:my-0;
 }
 
-.speech{
+.speech {
     @apply sm:w-1/2 sm:px-10 lg:px-20;
     @apply space-y-8 order-1 sm:order-2;
 }
 
-.label{
+.label {
     @apply text-left text-xs text-gray-400;
 }
 
-.hypen{
+.hypen {
     @apply relative;
-    &:after{
+    &:after {
         content: '';
         position: absolute;
         bottom: -5px;
@@ -33,14 +33,14 @@
     }
 }
 
-.title{
+.title {
     @apply text-left text-3xl md:text-4xl md:leading-snug;
 }
 
-.quote{
+.quote {
     @apply text-left text-base italic opacity-40;
 }
 
-.description{
+.description {
     @apply text-left text-sm leading-loose text-gray-400;
 }

@@ -1,30 +1,30 @@
-.container{
+.container {
     @apply p-10 md:p-12 w-full relative bg-dark-gray rounded-lg shadow-card;
     @apply transition duration-150 ease-out hover:ease-in;
-    &:hover, &:focus{
+    &:hover,
+    &:focus {
         @apply shadow-scope-2 bg-primary;
-        .title{
+        .title {
             @apply text-black font-bold;
         }
-        .brief{
+        .brief {
             @apply text-black;
         }
-        .icon{
+        .icon {
             @apply bg-black;
         }
     }
 }
 
-.icon{
+.icon {
     @apply w-4 h-4 bg-primary absolute top-4 right-4;
 }
 
-.title{
+.title {
     @apply text-lg sm:text-2xl text-primary text-left mb-2;
 }
 
-.brief{
+.brief {
     @apply text-left text-sm leading-loose text-gray-400;
     @apply hover:text-black;
 }
-

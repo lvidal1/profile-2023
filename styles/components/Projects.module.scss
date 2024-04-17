@@ -1,32 +1,32 @@
-.section{
+.section {
     @apply bg-dark-gray text-white md:py-20;
 }
 
-.container{
+.container {
     @apply mx-auto max-w-5xl text-center;
     @apply sm:flex flex-col sm:flex-row items-start px-5 py-10 sm:py-28;
 }
 
-.column{
+.column {
     @apply sm:w-1/2;
 }
 
-.left{
+.left {
     @apply md:pr-20;
 }
 
-.right{
+.right {
     @apply md:pl-20;
 }
 
-.header{
+.header {
     @apply md:w-8/12 mx-auto mt-0 mb-10 md:my-20;
 }
 
-.label{
+.label {
     @apply sm:text-left text-xs text-gray-400;
 }
 
-.title{
+.title {
     @apply sm:text-left text-3xl md:text-4xl md:leading-snug mb-2;
 }
